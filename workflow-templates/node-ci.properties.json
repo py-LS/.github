@@ -1,0 +1,4 @@
+{
+  "name": "Node CI",
+  "description": "Lint with ESLint and test via npm"
+}

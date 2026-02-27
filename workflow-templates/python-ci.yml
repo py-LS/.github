@@ -1,0 +1,12 @@
+name: Python CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    uses: py-LS/shared-workflows/.github/workflows/python-ci.yml@main
+    secrets: inherit

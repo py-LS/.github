@@ -1,0 +1,4 @@
+{
+  "name": "Python CI",
+  "description": "Lint with Ruff and test with pytest via uv"
+}
